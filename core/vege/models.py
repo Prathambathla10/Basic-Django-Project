@@ -1,0 +1,8 @@
+from django.db import models
+
+
+# Create your models here.
+class Receipe(models.Model):
+    receipe_name = models.CharField(max_length=100)
+    reciepe_description = models.TextField()
+    reciepe_image = models.ImageField(upload_to="reciepe")
