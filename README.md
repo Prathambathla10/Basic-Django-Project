@@ -1,1 +1,1 @@
-<H2>This repository contains Django practice projects </H2>
+<H2>Wallah habibi <br>This repository contains Django practice projects </H2>
