@@ -3,10 +3,10 @@ from django.db import models
 # Create your models here.
 
 
-class students(models.Model):
+class Students(models.Model):
     # id=models.AutoField()                                   # This is for Default counter of Django that runs automatically(Also a primary key)
     name = models.CharField(max_length=100)
-    age = models.IntegerField()
+    age = models.IntegerField(default=18)
     email = models.EmailField()
     address = models.TextField()
     # image=models.ImageField(upload_to='./files/')                   # This is for image upload, Enter Path in strings
