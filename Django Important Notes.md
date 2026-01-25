@@ -28,3 +28,9 @@
 
 &nbsp;	 Car.objects.create (\*\*car\_dict)
 
+
+
+### Way to read object in Django models:
+
+car.object.all()[index_you_want_to_read].attribute_you_want_to_read
+student = Students.objects.get(id=1)  ---- Will return the object id
